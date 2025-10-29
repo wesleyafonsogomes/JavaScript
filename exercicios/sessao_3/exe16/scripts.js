@@ -16,3 +16,7 @@ function bomDia() {
 }
 
 bomDia();
+
+function imprimir() {
+    console.log('Imprimir o texto');
+}

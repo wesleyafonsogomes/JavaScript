@@ -6,13 +6,16 @@ function imprimirTexto(str) {
     } else {
         console.log(str);
     }
+    return 5;
+    
 }
 
-imprimirTexto('Palmeiras não tem mundial');
+const resposta = imprimirTexto('Palmeiras não tem mundial');
+console.log('Resposta ' + resposta);
 
-imprimirTexto('Olá, mundo!');
+//imprimirTexto('Olá, mundo!');
 
-imprimirTexto('Bom dia');
+//imprimirTexto('Bom dia');
 
 // // // // // // // //
 
@@ -24,4 +27,4 @@ function impTexto(str1) {
     }
 }
 
-impTexto('Cephoenix é viado');
+//impTexto('Cephoenix é viado');

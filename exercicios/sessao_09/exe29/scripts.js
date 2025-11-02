@@ -6,17 +6,18 @@ let onibus = {
 
 console.log(onibus);
 
-// adicionei janelas
-onibus.janelas = 20;
-
-console.log(onibus);
-console.log(onibus.janelas);
-
-// deletei rodas
 delete onibus.rodas;
 
 console.log(onibus);
-console.log(onibus.rodas);
+
+onibus.janelas = 20;
+onibus.arCondicionado = true;
+onibus.freios = 4;
+
+console.log(onibus);
+
+console.log(onibus.arCondicionado);
+console.log(onibus.limitePessoas);
 
 
 

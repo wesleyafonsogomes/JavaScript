@@ -1,23 +1,27 @@
-// desafio calculadora
+// calculadora 
 
-const calculadora = {
-    somar: function(a,b) {
-        return a + b;
-    },
-    subtrair: function(a,b) {
-        return a - b;
-    },
-    multiplicar: function(a,b) {
-        return a * b;
-    },
-    dividir: function(a,b) {
-        return a / b;
-    }
-}
+function somar(a,b) {
+    return a + b
+};  
+function subtrair(a,b) {
+    return a - b
+};  
+function multiplicar(a,b) {
+    return a * b
+};  
+function dividir(a,b) {
+    return a / b
+};  
 
-console.log(calculadora.somar(5,3));
-console.log(calculadora.subtrair(7,5));
-console.log(calculadora.multiplicar(2,5));
-console.log(calculadora.dividir(10,2));
+console.log(somar(5,5));
+console.log(subtrair(15,5));
+console.log(multiplicar(2,5));
+console.log(dividir(20,2));
+
+
+
+
+
+
 
 

@@ -1,15 +1,13 @@
-let nomes = ["Wesley", "Matheus", "Maria", "José", "Nayara"];
-
-// usar o .includes para encontrar propriedade
+const nomes = ["João", "Maria", "Wesley", "Nayara", "Sophia"];
 
 if(nomes.includes("Wesley")) {
-    console.log('O nome existe no array');
+    console.log("Nome encontrado!");
 } else {
-    console.log('Não existe');
+    console.log("Não encontrado!");
 }
 
-if(nomes.includes("Marluce")) {
-    console.log('Existe');
+if(nomes.includes("Layla")) {
+    console.log("Nome encontrado!");
 } else {
-    console.log('Não existe no array')
+    console.log("Não encontrado");
 }

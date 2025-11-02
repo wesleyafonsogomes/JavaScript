@@ -1,22 +1,12 @@
-// criar array a partir de uma frase
-// imprimir cada palavra do array por um for
+// criar um array a partir de uma frase
 
-let produtos = "Banana,Amora,Abacaxi,Maça,Limão";
+let frase = "Temos muitas bananas aqui";
 
-let arrProdutos = produtos.split(',');
+let fraseArr = frase.split(" ");
 
-// fazendo com o for
+// console.log(fraseArr);
 
-for(i = 0; i < arrProdutos.length; i++) {
-    console.log(arrProdutos[i]);
+for(i = 0; i < fraseArr.length; i++) {
+    console.log(fraseArr[i]);
 }
-
-// fazendo com o forEach
-
-arrProdutos.forEach(arrProduto => {
-    console.log('Produto = ' + arrProduto);
-});
-
-
-
 

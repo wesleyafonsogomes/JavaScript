@@ -1,45 +1,41 @@
-// crie um objeto e imprima cada propriedade
+// criando objetos e imprimindo no console
 
 let onibus = {
     "rodas": 8,
-    "limiteDePassageiros": 40,
-    "Portas": 2
+    "limitePassageiros": 40,
+    "portas": 2
+};
+
+let carro = {
+    "rodas": 4,
+    "limitePassageiros": 5,
+    "portas": 2
+};
+
+let aviao = {
+    "rodas": 32,
+    "limitePassageiros": 100,
+    "portas": 1
 };
 
 console.log(onibus);
 
 console.log(onibus.rodas);
-console.log(onibus.limiteDePassageiros);
-console.log(onibus.Portas);
-
-let carro = {
-    "rodas": 4,
-    "portas": 2,
-    "arCondicionado": "true",
-    "vidroEletrico": "true",
-    "tetoSolar": "true",
-};
+console.log(onibus.limitePassageiros);
+console.log(onibus.portas);
 
 console.log(carro);
 
 console.log(carro.rodas);
+console.log(carro.limitePassageiros);
 console.log(carro.portas);
-console.log(carro.arCondicionado);
-console.log(carro.vidroEletrico);
-console.log(carro.tetoSolar);
 
+console.log(aviao);
 
-// deletando propriedade
+console.log(aviao.rodas);
+console.log(aviao.limitePassageiros);
+console.log(aviao.portas);
 
-delete carro.arCondicionado;
-
-console.log(carro);
-
-// adicionando outra propriedade
-
-carro.newArCondicionado = true;
-
-console.log(carro);
 
 
 

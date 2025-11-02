@@ -1,13 +1,14 @@
-// criando JSON e atribua uma variavel a ele
+// criando um JSON
 
-let casa = {
-    "comodos": 6,
-    "quartos": 2,
-    "banheiros": 1,
-}
+let pessoa = {
+    "nome": "Wesley",
+    "idade": 29,
+    "prof": "Programador jr"
+};
 
-console.log(casa.comodos);
-console.log(casa.quartos);
-console.log(casa.banheiros);
+console.log(pessoa.nome);
+console.log(pessoa.idade);
+console.log(pessoa.prof);
+
 
 

@@ -1,19 +1,37 @@
-let produtos = ["Copos", "Pratos", "Mesa", "Cadeiras", "Talheres"];
+let nuns = [2,5,2,4,8,7,9];
+let nuns2 = [5,6];
 
-let novosProdutos = ["Jeladeira", "Fogão"];
+// function se tem mais de 5 elementos
 
-let velhosProdutos = ["Arroz"];
-
-// numero de elementos: .lenght
-
-function verificarElementos(ele) {
-    if(ele.length < 5) {
-        console.log('Poucos elementos');
+function verificador(arr) {
+    if(arr.length >= 5) {
+        console.log("Muitos elementos");
     } else {
-        console.log('Muitos elementos');
+        console.log("Poucos elementos");
     }
 }
 
-verificarElementos(produtos);
-verificarElementos(novosProdutos);
-verificarElementos(velhosProdutos);
+verificador(nuns);
+verificador(nuns2);
+
+// function se tem o numero 2
+
+function numeroDois(num) {
+    if(num.includes(2)) {
+        console.log("Número presente")
+    } else {
+        console.log("Não está presente");
+    }
+}
+
+numeroDois(nuns);
+numeroDois(nuns2);
+
+
+
+
+
+
+
+
+

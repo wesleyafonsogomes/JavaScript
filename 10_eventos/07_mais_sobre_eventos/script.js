@@ -1,13 +1,13 @@
 let btn1 = document.querySelector("#btn1");
 let btn2 = document.querySelector("#btn2");
 
-btn1.addEventListener("mousedown", function() {
-    console.log("Apertou o botão");
+btn1.addEventListener("mousedown", function(e) {
+    console.log("Apertou o botão: " + JSON.stringify(e));
 });
 
 
-btn1.addEventListener("mouseup", function() {
-    console.log("Soltou o botão");
+btn1.addEventListener("mouseup", function(e) {
+    console.log("Soltou o botão" + JSON.stringify(e));
 });
 
 // dable click

@@ -5,6 +5,7 @@ window.addEventListener("keydown", function(e){
     } else if(e.key == "Enter") {
         console.log("Apertou enter");
     }
+    
 });
 
 window.addEventListener("keyup", function(e) {
@@ -12,4 +13,6 @@ window.addEventListener("keyup", function(e) {
     if(e.key == "Enter") {
         console.log("Soltou o enter");
     }
+    console.log("Isso é um evento: " + JSON.stringify(e));
 })
+

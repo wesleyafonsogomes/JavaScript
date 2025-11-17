@@ -7,6 +7,34 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+    <header class="topo">
+        <div class="container">
+            <strong>Newslatter</strong>
+            <button id="btnTema" class="btn">Alternar tema</button>
+        </div>
+    </header>
 
+    <main class="container">
+        <section class="caixa">
+            <h1>Inscreva-se</h1>
+            <p>Receba novidades em seu e-mail. Sem Span</p>
+
+            <form>
+                <label for="Nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome">
+
+                <label for="email">E-mail</label>
+                <input type="text" name="email" id="email" placeholder="Seu e-mail">
+
+                <button type="submit" class="btn primario">Quero receber</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container">
+            <small>Newslatter <span id="ano"></span></small>
+        </div>
+    </footer>
 </body>
 </html>

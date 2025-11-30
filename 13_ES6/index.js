@@ -113,4 +113,58 @@ produtos.map((produto) => {
     }
 });
 
-console.log(produtos);
+// console.log(produtos);
+
+// destructuring 
+
+const frutas = ["Frutas", "Laranja", "Mamão"];
+
+const [f1,f2,f3] = frutas;
+
+// console.log(f1);
+
+// objeto
+
+const products = {
+    name: "Headset",
+    price: 49.99,
+    category: "Periféricos",
+    color: "Cinza"
+}
+
+const {name, price, category, color} = products
+
+// console.log(`O nome do produto é ${name}, custa R$${price}, pertence a categoria ${category} e é da cor ${color}`);
+
+
+// spred operator 
+
+const a1 = [1,2,3];
+const a2 = [4,5,6];
+
+const a3 = [...a1,...a2]
+
+// console.log(a3);
+
+const a4 = [0,...a1, 4]; // colocou o a1 no a4
+
+
+// Classes
+
+class Products {
+    constructor(name, price) {
+        this.name = name,
+        this.price = price
+    }
+
+    productDiscount(discount) {
+        return this.price * ((100 - discount) / 100);
+    }
+}
+
+const camisaV = new Products("Camisa gola V", 20);
+
+// console.log(camisaV.productDiscount(10));
+
+// treinar FILTER / MAP 
+
